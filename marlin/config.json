@@ -482,9 +482,11 @@
   },
   "api-28": {
     "naked": {
-      "overlays-dir": "overlays-api26-naked",
+      "overlays-dir": "",
       "system-bytecode": [
         "system/app/ims/ims.apk",
+        "system/framework/LowPowerMonitorDeviceStub.jar",
+        "system/framework/LowPowerMonitorDeviceInterface.jar",
         "system/framework/PowerAnomalyDataModemInterface.jar",
         "system/framework/PowerAnomalyStub.jar",
         "system/framework/qcrilhook.jar",
@@ -539,7 +541,7 @@
       ]
     },
     "full": {
-      "overlays-dir": "overlays-api26-full",
+      "overlays-dir": "",
       "system-bytecode": [
         "system/app/VZWAPNLib/VZWAPNLib.apk",
         "system/framework/VerizonUnifiedSettings.jar",
@@ -549,7 +551,6 @@
         "system/priv-app/DCMO/DCMO.apk",
         "system/priv-app/DMService/DMService.apk",
         "system/priv-app/DiagMon/DiagMon.apk",
-        "system/priv-app/LLKAgent/LLKAgent.apk",
         "system/priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk::PRESIGNED",
         "system/priv-app/HotwordEnrollmentTGoogleWCD9335/HotwordEnrollmentTGoogleWCD9335.apk::PRESIGNED",
         "system/priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk::PRESIGNED",
@@ -572,7 +573,6 @@
         "system/etc/permissions/com.customermobile.preload.vzw.xml",
         "system/etc/permissions/com.verizon.apn.xml",
         "system/etc/permissions/com.verizon.embms.xml",
-        "system/etc/permissions/com.verizon.llkagent.xml",
         "system/etc/permissions/com.verizon.provider.xml",
         "system/etc/permissions/com.verizon.services.xml",
         "system/etc/permissions/features-verizon.xml",
